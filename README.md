@@ -1,6 +1,8 @@
 # CC2541F256_BleMulticon_ITEMS
 
 
+
+```
 主机：SimpleBLECentral_Mulconnect              1. 原始版本(东方)   ok
      SimpleBLECentral_Mulconnect_V1.0         1. 封装优化代码     ok
      SimpleBLECentral_Mulconnect_V1.1         1. 处理变量：connectedPeripheralNum/simpleBLEConnHandle变量,
@@ -21,8 +23,12 @@
 											   
      SimpleBLECentral_Mulconnect_V2.1.0       1. 添加正式LCD及与刺激器通讯的代码
 	                                           2. 测试OK
+```
+
 	  
 	  
+
+```
 从机：SimpleBLEPeripheral_Mulconnect           1. BLE部分OK
      SimpleBLEPeripheral_Mulconnect_V1.0      2. 添加MCP4728-I2C-DA部分
      SimpleBLEPeripheral_Mulconnect_V1.1.0    3. 完善MCP4728快速写连续写API+开启两个定时器实现4路PWM
@@ -54,3 +60,5 @@
      SimpleBLEPeripheral_Mulconnect_V2.1.1   1. 从称重LED-IIC代码中移植过来的代码
 	                                     2. 解决DAC-IIC对蓝牙通讯的影响
 				             3. 测试OK
+```
+
